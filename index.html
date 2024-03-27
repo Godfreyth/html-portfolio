@@ -1,41 +1,140 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Godfrey's Porfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    <title>DevJane Portfolio Web</title>
 </head>
 <body>
-     <h1>Godfrey's Porfolio</h1> 
-     <h2>I am a wed DEV</h2> 
-    <hr>
-     <h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3> 
-        <img src="./assets/images/movie-ranking.png" alt="movie rankings" width="200">
-        <br>
-         <h3><a href="./public/birthday-invite.html">B.Day Invite Project</a></h3> 
-        <img src="./assets/images/birthday-invite.png" alt="movie rankings" width="200">
-    <hr>
-    <ul>
-        <li><a href="./public/about.html">About us</a></li>
-        <li><a href="./public/contact.html">Contact Me</a></li>
-    </ul>
+    <header>
+        <div class="logo">
+            <img src="img/devjane.png" alt="jane">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">My Porjects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Intro-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Jane Smith</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <img src="img/dev-jane-01.jpg" alt="picture of the dev">
+    </section>
+
+    <!--My Services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--sevices">What I do</h2>
+    </section>
+       <div class="services">
+            <div class="service">
+                <h3>consectetur</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aliquam vero molestiae maxime impedit? Inventore quisquam 
+                    dicta sapiente dignissimos aperiam voluptatum soluta eaque
+                    possimus amet numquam. Assumenda totam a qui dolorum!</p>
+            </div>
+            <div class="service">
+                <h3>consectetur</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aliquam vero molestiae maxime impedit? Inventore quisquam 
+                    dicta sapiente dignissimos aperiam voluptatum soluta eaque
+                    possimus amet numquam. Assumenda totam a qui dolorum!</p>
+            </div>
+            <div class="service">
+                <h3>consectetur</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aliquam vero molestiae maxime impedit? Inventore quisquam 
+                    dicta sapiente dignissimos aperiam voluptatum soluta eaque
+                    possimus amet numquam. Assumenda totam a qui dolorum!</p>
+            </div>
+       </div>
+
+       <a href="#work" class="btn">My Work</a>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about"></p>
+            
+            <div class="about-me__body">
+                <p></p>
+                <p></p>
+            </div>
+            
+            <img src="img/dev-jane-02.jpg" alt="Jane leaning against a bus">
+         </section>
+         
+         <!-- My Work -->
+         <section class="my-work" id="work">
+             <h2 class="section__title">My work</h2>
+             <p class="section__subtitle"></p>
+             
+             <div class="portfolio">
+                 <!-- Portfolio item 01 -->
+                 <a href="#" class="portfolio__item">
+                     <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+                 </a>
+                 
+                 <!-- Portfolio item 02 -->
+                 <a href="#" class="portfolio__item">
+                     <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+                 </a>
+                 
+                 <!-- Portfolio item 03 -->
+                 <a href="#" class="portfolio__item">
+                     <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+                 </a>
+                 
+                 <!-- Portfolio item 04 -->
+                 <a href="#" class="portfolio__item">
+                     <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+                 </a>
+                 
+                 <!-- Portfolio item 05 -->
+                 <a href="#" class="portfolio__item">
+                     <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+                 </a>
+                 
+                 <!-- Portfolio item 06 -->
+                 <a href="#" class="portfolio__item">
+                     <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+                 </a>
+                 
+                 <!-- Portfolio item 07 -->
+                 <a href="#" class="portfolio__item">
+                     <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+                 </a>
+                 
+                 <!-- Portfolio item 08 -->
+                 <a href="#" class="portfolio__item">
+                     <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+                 </a>
+                 
+                 <!-- Portfolio item 09 -->
+                 <a href="#" class="portfolio__item">
+                     <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
+                 </a>
+                 
+                 <!-- Portfolio item 0 0-->
+                 <a href="#" class="portfolio__item">
+                     <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
+                 </a>
+             </div>
+         </section>
+
+
+    
 </body>
 </html>
-
-
-
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
